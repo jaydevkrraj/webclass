@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_SCHOOL</title>
+   <link rel="stylsheet" herf="https://cdnjs.com/libraries/font-awesome">
+    <link rel="stylesheet" href="school.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,500&family=Oswald:wght@500&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+<div>
+  <h1 id="JMS">JMS CLASSES</h1>
+  </div> 
+  
+  <div class="holo">
+    <img src="jlogo.png" class="jmsc">
+  </div>
+
+    <div class="hindi">
+     <h2 class="htext">पढ़े वहीं!           जहाॅं पूछने की आजादी हो!!</h2>
+    </div>
+
+<body>
+         <div class="nav">
+            <ul id="nav1">  
+                <li> <a href="jmsclassess.html" id="nav_li">Home</a></li>
+                  <div class="dropdown">
+                  <button class="dropbtn">Courses</button>
+                    <div class="dropdown-content">
+                      <a href="online.html">Online</a>
+                      <a href="offline.html">Offline</a>  
+                    </div>
+                  </div>
+                
+                </li>
+                <li> <a href="1.html" id="nav_li">Test</a></li>
+                <li> <a href="download.html" id="nav_li">Download</a></li>
+                <li> <a href="about.html" id="nav_li">About Us</a></li>
+                <li> <a href="contact.html" id="nav_li">Contact Us</a></li>
+                <li> <a href="#" id="nav_li" onclick="alert('Not Help available')">Help</a></li>
+               <a href="jregistrationform.html"><input type="button" value="Register"  class="bott"></a>
+               <a href="jlogin.html"><input type="button" value="Login" class="bott"></a>
+            </ul>
+        </div><br><br><br><br><br>
+        
+        <!-- image slider -->
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="jschool.jpeg" style="width:100%" height="500px">
+              <!-- <div class="text">Caption Text</div> -->
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="2.jpg" style="width:100%" height="500px">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="3.jpg" style="width:100%" height="500px">
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="1.jpg" style="width:100%" height="500px">
+
+              <!-- <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="1.jpg" style="width:100%" height="500px">
+              </div> -->
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="S4.jpg" style="width:100%" height="500px">
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="WhatsApp Image 2024-05-06 at 01.41.57 (1).jpeg" style="width:100%" height="500px">
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="s6.jpeg" style="width:100%" height="500px">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+          
+
+          <footer class="foot">
+        <div class="opt">
+          <li> <b>Test</b>
+             <ul>   <a href="1.html">Class-6th</a></ul>
+             <ul>   <a href="1.html">Class-7th</a></ul>
+             <ul>   <a href="1.html">Class-8th</a></ul>
+             <ul>   <a href="1.html">Class-9th</a></ul>
+             <ul>   <a href="1.html">Class-10th</a></ul>
+             <ul>   <a href="1.html">Class-9th</a></ul>
+             <ul>   <a href="1.html">Class-10th</a></ul>
+             </li>
+
+             <li> <b>Syllabus</b> 
+             <ul><a href="download.html">Semester-01</a></ul>
+             <ul><a href="download.html">Semester-02</a></ul>
+             <ul><a href="download.html">Semester-03</a></ul>
+             <ul><a href="download.html">Semester-04</a></ul>
+             <ul><a href="download.html">Semester-05</a></ul>
+             <ul><a href="download.html">Semester-06</a></ul>
+             </li>
+
+             <li> <b>Ncert Books</b> 
+              <ul><a href="download.html">Ncert BOOK Class 6th</a></ul>
+              <ul><a href="download.html">Ncert BOOK Class 7th</a></ul>
+              <ul><a href="download.html">Ncert BOOK Class 8th</a></ul>
+              <ul><a href="download.html">Ncert BOOK Class 9th</a></ul>
+              <ul><a href="download.html">Ncert BOOK Class 10th</a></ul>
+              <ul><a href="download.html">Ncert BOOK Class 11th</a></ul>
+              <ul><a href="download.html">Ncert BOOK Class 12th</a></ul>
+              </li>
+             
+           <li> <b>Notes</b> 
+              <ul><a href="download.html">Semester-01</a></ul>
+              <ul><a href="download.html">Semester-02</a></ul>
+              <ul><a href="download.html">Semester-03</a></ul>
+              <ul><a href="download.html">Semester-04</a></ul>
+              <ul><a href="download.html">Semester-05</a></ul>
+              <ul><a href="download.html">Semester-06</a></ul>
+
+             
+<!-- <li>Explore</li> -->
+        </div>
+    </footer>
+
+    
+ <div id="connect">
+    <h2 class="ab">/ Links \</h2><br>
+        <p class="svg">
+            <a href="jaydev7576raj@gmail.com" target="blank"><img src="iemail.png" class="gmail"></a>
+            <a href="https://youtube.com/@jmsclasses6214?si=yXizXENEoy7SY9Ej" target="blank"><img src="iyoutube.png" class="gmail"> </a>
+            <a href="https://https://t.me/JMS_CLASSES_PRINCE_RAJ" target="blank"><img src="itele.png" class="gmail"></a>
+            <a href="https://www.facebook.com/profile.php" target="blank"><img src="ifacebook.png" class="gmail"></a>
+        </p>
+</div>
+
+</body>
+
+</html>
